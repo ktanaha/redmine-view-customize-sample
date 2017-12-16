@@ -6,9 +6,7 @@
 */
 $(function() {
   add_btn();
-});
 
-$(function() {
   $(document).ajaxComplete(function(){
     add_btn();
   });
