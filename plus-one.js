@@ -16,13 +16,13 @@ function count_up_btn() {
   var field = $('#issue_custom_field_values_1');
   field.hide();
 
-  var btn = '<button type="button" class="add-btn">+1</button>';
+  var btn = '<button type="button" class="count_up_btn">+1</button>';
   field.after(btn);
   
   var count = '<span class="issue_custom_field_values_1_label">'+ field.val() +'</span>';
-  $('.add-btn').after(count)
+  $('.count_up_btn').after(count)
 
-  $('.add-btn').on('click', function () {
+  $('.count_up_btn').on('click', function () {
     var label = $('.issue_custom_field_values_1_label');
     var num = Number(field.val()) + 1;
     field.val(num)
