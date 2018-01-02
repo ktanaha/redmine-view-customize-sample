@@ -1,0 +1,26 @@
+/*
+  Path patter : /issues/[0-9]+
+  Type        : CSS
+  
+  history css.
+*/
+
+#history {
+  background-color: #A4A4A4;
+  padding-left: 10px;
+}
+
+#history table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+#history table th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+#history table td {
+  border: 1px solid #000000;
+  padding: 3px 10px;
+}
